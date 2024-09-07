@@ -1,0 +1,69 @@
+.chatContainer {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.userMessage {
+    max-width: 80%;
+    align-self: flex-end;
+    background-color: #0000ff;
+    padding: 1em;
+    border-radius: 1em;
+    color: #ffffff;
+    text-align: left;
+}
+
+.assistantMessage {
+    max-width: 80%;
+    align-self: flex-start;
+    background-color: #008000;
+    padding: 1em;
+    border-radius: 1em;
+    color: #ffffff;
+    text-align: left;
+}
+
+.roleText {
+    font-weight: 700;
+}
+
+.chatTextInput {
+    width: 100%;
+    border-radius: 1em;
+    color: #ffffff;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color:#2f4f4f;
+    border: none;
+    padding: 1.5em;
+    font-size: 1.2em;
+}
+
+.chatTextInput::placeholder {
+    color: gray;
+    font-size: 1.2em;
+}
+
+.chatTextInput:active {
+    outline: none;
+}
+
+.typingNotificationWrapper {
+    background-color: #6495ed;
+    color: #ffffff;
+    border-radius: 1em;
+    width: 30%;
+    align-self: center;
+    margin: 1em;
+}
+
+.errorNotificationWrapper {
+    background-color: red;
+    color: #ffffff;
+    border-radius: 1em;
+    width: 60%;
+    align-self: center;
+    margin: 1em;
+}
