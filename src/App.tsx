@@ -83,7 +83,7 @@ function App() {
             </p>
           ))}
 
-        {!isTyping && (
+        {isTyping && (
           <div className={classes.typingNotificationWrapper}>
             <p>
               <i>Typing...</i>
@@ -91,7 +91,7 @@ function App() {
           </div>
         )}
 
-        {!isError && (
+        {isError && (
           <div className={classes.errorNotificationWrapper}>
             <p>Error while getting an answer - please try again</p>
           </div>
