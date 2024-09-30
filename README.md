@@ -1,7 +1,7 @@
 # ai-chatbot-react-frontend
 
 Frontend part of ai chatbot created in React.
-Based on the tuorial you can find here: https://www.youtube.com/watch?v=OJ7AgZVH118&list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR
+Based on the tuorial you can find here: https://www.youtube.com/playlist?list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR
 
 ## How to run the app
 
